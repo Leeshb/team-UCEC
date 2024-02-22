@@ -1,0 +1,19 @@
+section.bannerContainer{
+  position: relative;
+  width: 1300px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+div.banner{
+  width: 5200px;
+}
+
+div.banner div{
+  width: 1300px;
+  float: left;
+}
+
+div img{
+  width: 100%;
+}
