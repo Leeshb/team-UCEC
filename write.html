@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" href="https://holaworld.io/favicon.ico">
+  <link rel="shortcut icon" href="https://holaworld.io/favicon.ico">
+  <link rel="shortcut icon" href="/favicon.ico"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hola!</title>
+  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="post.css">
+  <link href='//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css' rel='stylesheet' type='text/css'>
+  <style>
+    * { font-family: 'Spoqa Han Sans Neo', 'sans-serif'; }
+    div.track::before{
+      display: table;
+      content: "";  
+    }
+    div.track::after{
+      display: table;
+      content: "";
+    }
+    div.track:after{
+      clear: both;
+    }
+  </style>
+
+</head>
+<body>
+  <div class="root">
+    <nav class="header">
+      <a href="/">
+        <img class="logo" src="/images/logo.png">
+      </a>
+      <div class="loginwrap">
+        <button type="submit"><img class="login" src="/images/kakao.png"></button>
+      </div>
+    </nav>
+    <div class="container">
+      <div class="top">
+        <h2 class="bigTitle">게시판</h2>
+      </div>
+      <div class="board_write_wrap">
+        <div class="board_write">
+            <div class="title">
+                <dl>
+                    <dt>제목</dt>
+                    <dd><input type="text" placeholder="제목 입력"></dd>
+                </dl>
+            </div>
+            <div class="info">
+                <dl>
+                    <dt>글쓴이</dt>
+                    <dd><input type="text" placeholder="글쓴이 입력"></dd>
+                </dl>
+                <dl>
+                    <dt>비밀번호</dt>
+                    <dd><input type="password" placeholder="비밀번호 입력"></dd>
+                </dl>
+            </div>
+            <div class="cont">
+                <textarea placeholder="내용 입력"></textarea>
+            </div>
+        </div>
+        <div class="bt_wrap">
+            <a href="view.html" class="on">등록</a>
+            <a href="main.html">취소</a>
+        </div>
+    </div>
+    </div>
+  </div>
+</body>
+</html>

@@ -141,6 +141,7 @@ a.boxes{
   display: flex;
   width: 340px;
   padding: 20px 25px;
+  overflow: hidden;
   gap: 10px;
   border-radius: 20px;
   border: 2px solid rgb(209, 209, 209);
